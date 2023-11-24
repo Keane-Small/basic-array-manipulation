@@ -1,4 +1,5 @@
-// The .reduce() method is used to iterate over an array and return a signle value
+// The .reduce() method is used to iterate over an array and return a single value
+// The first
 
 const numbers = [15, 2, 1, 4];
 
