@@ -5,3 +5,9 @@ const numbers = [15, 2, 1, 4];
 const answer = numbers.reduce((answer, currentValue) => {
   return (answer += currentValue);
 });
+
+// InitialValue
+
+const newAnswer = numbers.reduce((answer, currentValue) => {
+  return (answer -= currentValue);
+}, 100);
