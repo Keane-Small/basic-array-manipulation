@@ -16,3 +16,4 @@ Non-Destructive methods
 .filter()
 .concat()
 .map()
+.reduce()
