@@ -5,7 +5,8 @@ let firstSeaCreatures = ["whale", "seahorse", "shark", "eel", "dolphin"];
 
 const firstResult = firstSeaCreatures.splice(2);
 
-console.log(firstSeaCreatures);
+// console.log(firstResult);
+// console.log(firstSeaCreatures);
 
 // The other arguments are optional but if you want to add to an array you can use them.
 // The second argument indicates how many elements you want to remove.
@@ -15,4 +16,7 @@ let secondSeaCreatures = ["whale", "seahorse", "shark", "eel", "dolphin"];
 
 const secondResults = secondSeaCreatures.splice(1, 4, "squid", "mermaid");
 
+// console.log(secondResults);
 console.log(secondSeaCreatures);
+
+//

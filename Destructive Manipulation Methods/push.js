@@ -3,6 +3,10 @@
 
 const evenNumbers = [2, 4, 6, 8];
 
-console.log(evenNumbers.push(10));
+// console.log(evenNumbers.push(10, 11));
 
-// console.log(evenNumbers);
+console.log(evenNumbers);
+
+const test = evenNumbers.push();
+
+console.log(test);

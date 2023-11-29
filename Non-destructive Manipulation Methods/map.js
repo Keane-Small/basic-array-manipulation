@@ -4,11 +4,11 @@
 
 const sodas = ["Coca-Cola", "Pepsi", "Sprite", "Cream soda"];
 
-sodas.map((soda) => {
+const newSodas = sodas.map((soda) => {
   if (soda[0] === "C") {
     soda = "Dr. Pepper";
   }
   return soda;
 });
 
-console.log(sodas);
+console.log(newSodas);

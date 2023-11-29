@@ -2,6 +2,11 @@
 
 let animals = ["lions", "tigers", "bears"];
 
-animals.shift();
+// animals.shift();
 
+// console.log(animals);
+
+const test = animals.shift();
+
+console.log(test);
 console.log(animals);

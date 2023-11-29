@@ -54,3 +54,16 @@ const customers = [
 
 // Have you noticed that the customer details don't have a full name or title
 // How would we transform the customer array with a new attribute
+
+const newArray = customers.map((obj) => {
+  if (obj.gender === "F" && obj.married === true) {
+    obj["fullName"] = `Mrs ${obj.f_name} ${obj.l_name}`;
+  } else if (obj.gender === "F" && !obj.married) {
+    obj["fullName"] = `Miss ${obj.f_name} ${obj.l_name}`;
+  } else {
+    obj["fullName"] = `Mr ${obj.f_name} ${obj.l_name}`;
+  }
+  return obj;
+});
+
+console.log(newArray);

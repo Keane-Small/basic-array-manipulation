@@ -1,10 +1,11 @@
-// slices takes a section of an array and slices it, leaving the original as is, and making a copy of its own.
+// slices takes a section of an array and slices it, leaving the original as is,
+// and making a copy of its own.
 
-const stuff = ["computer", "phone", "wallet"];
+// const stuff = ["computer", "phone", "wallet"];
 
-const stuff2 = stuff.slice();
+// const stuff2 = stuff.slice();
 
-console.log(stuff2);
+// console.log(stuff2);
 
 // slices takes in two parameters the start and end
 

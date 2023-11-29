@@ -1,7 +1,3 @@
-// We will be taking an example of an array of Customer objects. Let us assume that,
-// we have bunch of customer data returned from the server. Each of the Customer has properties like, id,
-// first name, last name, gender, married, age, expense and, the list of purchases made.
-
 // Customer object
 const customers = [
   {
@@ -56,14 +52,5 @@ const customers = [
   },
 ];
 
-// Let us assume, a Customer is qualified as a Senior Citizen if his/her age
-// is equal or more than 60.
-// How would you get and array of all the Senior Citizens
-
-const seniorCitizens = customers.filter((obj) => {
-  if (obj.age >= 60) {
-    return obj;
-  }
-});
-
-console.log(seniorCitizens);
+// Lets look at the Customer array again
+// Lets find out who hasn't purchased anything

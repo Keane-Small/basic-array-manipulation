@@ -2,6 +2,10 @@
 
 let fruits = ["apple", "orange", "banana"];
 
-fruits.unshift("kiwi");
+// fruits.unshift("kiwi");
 
-console.log(fruits);
+// console.log(fruits);
+
+const test = fruits.unshift();
+
+console.log(test);
