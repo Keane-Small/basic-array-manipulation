@@ -7,4 +7,5 @@
 let numbers = [1, 2, 3, 4, 5];
 
 const age = numbers.find((e) => e % 2 == 0);
-console.log(numbers);
+
+console.log(age);

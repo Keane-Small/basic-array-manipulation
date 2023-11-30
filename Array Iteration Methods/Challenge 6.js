@@ -48,9 +48,13 @@ const customers = [
     married: false,
     age: 7,
     expense: 300,
-    purchased: ["Toys"],
+    purchased: [],
   },
 ];
 
 // Lets look at the Customer array again
 // Lets find out who hasn't purchased anything
+
+const ok = customers.filter((item) => item.purchased.length === 0);
+
+console.log(ok);

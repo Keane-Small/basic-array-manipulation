@@ -55,3 +55,14 @@ const customers = [
 // Lets look at the Customer array again
 // Now we would like to perform some analytics so,
 // we would like to know the average age of the Customers who have purchased the Item, 'Book'.
+let count = 0;
+const averageAge = customers
+  .filter((item) => {
+    return item.purchased.includes("Book");
+  })
+  .reduce((accumulator, item) => {
+    count++;
+    return (accumulator += item.age);
+  }, 0);
+
+console.log(Math.floor(averageAge / count));

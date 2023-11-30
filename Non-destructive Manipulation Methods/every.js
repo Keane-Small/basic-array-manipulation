@@ -9,4 +9,4 @@ let check = ageArray.every((a) => {
   a >= 18;
 });
 
-// console.log(check);
+console.log(check);

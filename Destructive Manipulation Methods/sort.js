@@ -9,24 +9,18 @@ let artists = [
   "Barent Avercamp",
 ];
 
-const sorted = artists.sort();
+// const sorted = artists.sort();
 
-console.log(sorted);
+// console.log(sorted);
 
 // const descendingOrder = artists.sort((a, b) => {
-//   if (a > b) {
-//     return -1;
-//   }
-//   if (a < b) {
-//     return 1;
-//   }
-
-//   return 0;
+//   return a > b;
 // });
+
 // console.log(descendingOrder);
 
 // let ages = [2, 1000, 10, 3, 23, 12, 30, 21];
 
-// ages.sort();
+// ages.sort((a, b) => a - b);
 
 // console.log(ages);

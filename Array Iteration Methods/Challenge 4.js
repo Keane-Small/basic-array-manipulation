@@ -55,3 +55,7 @@ const customers = [
 // Lets look at the Customer array again
 // Our Customers are span across different age groups.
 // Do we have any customers below the age of 10?
+
+const answer = customers.some((element) => element.age < 10);
+
+console.log(answer);

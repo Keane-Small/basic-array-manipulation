@@ -55,3 +55,12 @@ const customers = [
 // Lets look at the Customer array again
 // Final Challange : Get the total amount spent by Married Customers
 // You are only allowed to use array methods
+// filter   map   reduce
+
+const totalAmountSpentByMarried = customers
+  .filter((item) => item.married === true)
+  .reduce((accumulator, item) => {
+    return (accumulator += item.expense);
+  }, 0);
+
+// console.log(totalAmountSpentByMarried);

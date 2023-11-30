@@ -6,3 +6,7 @@
 const ageArray = [34, 23, 20, 26, 12];
 
 // checks whether ageArray contains any element that is less than 18
+
+const lessThan = ageArray.some((a) => a < 18);
+
+console.log(lessThan);

@@ -55,3 +55,18 @@ const customers = [
 // Lets look at the Customer array again
 // In the last challenge we found out that there is a person under the age of 10.
 // Lets find out who they are?
+
+const whoWasThisPerson = customers
+  .map((a) => {
+    return {
+      f_name: a.f_name,
+      age: a.age,
+    };
+  })
+  .filter((item) => {
+    if (item.age < 10) {
+      return item.f_name;
+    }
+  });
+
+console.log(whoWasThisPerson);
